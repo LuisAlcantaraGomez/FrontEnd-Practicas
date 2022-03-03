@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fortmulario</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <div style="text-align: center;"><h1>MasterCake</h1></div>
+        <nav>
+            <div id="navegador">
+                <ul>
+                    <a href="./index.html">Inicio</a>
+                    <a href="./pasteles.html">Pasteles</a>
+                    <a href="./decoracion.html">Decoracion</a>
+                    <a href="./formulario.html">Formulario</a>
+                    <a href="./contacto.html">Contacto</a>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <div id="formulario">
+            <form action="/forms.js" id="rellena" mtehod="post"> 
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="Nombre">
+                <br><br>
+                <label for="telefono">Telefono</label>
+                <input type="text" id="telefono" name="Telefono">
+                <br><br>
+                <label for="correo">Correo Electronico</label>
+                <input type="text" id="correo" name="Correo Electronico">
+                <br><br>
+                <label for="descripcion">Descripcion general del pastel</label>
+                <input type="text" id="descripcion" name="Descripcion general del pastel">
+                <br><br>
+                <label for="sabor">Seleccion de sabores</label>
+                <select id="sabor" name="sabor">
+                    <option value="Seleccionar">Ninguno</option>
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Tres Leches">Tres Leches</option>
+                    <option value="Vainilla">Vainilla</option>
+                    <option value="Fresa">Fresa</option>
+                    <option value="Cafe">Cafe</option>
+                    <option value="Mil Hojas">Mil Hojas</option>
+                </select>
+                <br><br>
+                <label for="sabor2">Sabor extra</label>
+                <select id="sabor2" name="sabor2">
+                    <option value="Seleccionar">Ninguno</option>
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Tres Leches">Tres Leches</option>
+                    <option value="Vainilla">Vainilla</option>
+                    <option value="Fresa">Fresa</option>
+                    <option value="Cafe">Cafe</option>
+                    <option value="Mil Hojas">Mil Hojas</option>
+                </select>
+                <br><br>
+                <label for="decoracion">Seleccion de adorno</label>
+                <select id="decoracion" name="decoracion">
+                    <option value="Seleccionar">Ninguno</option>
+                    <option value="En 3D">En 3D</option>
+                    <option value="Geometrica">Geometrica</option>
+                    <option value="Floral">Floral</option>
+                    <option value="Drip Cake">Drip Cake</option>
+                    <option value="Naked">Naked</option>
+                </select>
+                <br><br>
+                <label for="decoracion2">Adorno extra</label>
+                <select id="decoracion2" name="decoracion2">
+                    <option value="Seleccionar">inguno</option>
+                    <option value="En 3D">En 3D</option>
+                    <option value="Geometrica">Geometrica</option>
+                    <option value="Floral">Floral</option>
+                    <option value="Drip Cake">Drip Cake</option>
+                    <option value="Naked">Naked</option>
+                </select>
+                <br><br>
+                
+                <input type="button" value="Enviar" onclick="alert('Se ah enviado tu solictud :)');"> &nbsp;&nbsp;
+                
+            </form>
+        </div>
+        
+    </body>
+</html>
